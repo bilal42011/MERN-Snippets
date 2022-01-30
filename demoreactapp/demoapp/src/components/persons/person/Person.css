@@ -1,0 +1,29 @@
+.App{
+width:400px;
+border:1px solid rgb(233, 227, 227);
+box-shadow: 0px 0px 0px -2px rgb(145, 144, 144);
+margin:auto;
+margin-bottom: 10px;
+background-color:rgb(170, 167, 167);
+border-radius: 10px;
+}
+.button{
+background-color:darkgrey;
+padding:5px;
+border-radius: 5px;
+}
+.button:hover{
+background-color:dimgrey;
+}
+.input{
+    border-color: white;
+    border-radius: 7px;
+}
+.input:focus{
+    border-color: white;
+    outline:none;
+}
+/*div {
+
+    background-color: blueviolet;
+}*/

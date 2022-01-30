@@ -1,0 +1,8 @@
+.containeringredients{
+    max-width:700px;
+    height:400px;
+    overflow:scroll;
+    margin: auto;
+    margin-top:25px;
+    box-sizing: border-box;
+}

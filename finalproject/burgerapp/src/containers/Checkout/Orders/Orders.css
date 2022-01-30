@@ -1,0 +1,16 @@
+.ordersbutton{
+    padding:8px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    margin: 0 5px;
+    font-size: medium;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    }
+    .ordersbutton:hover{
+        background-color: yellowgreen;
+    }
+    .orders{
+        text-align: center;
+    }

@@ -1,0 +1,28 @@
+.cocktail{
+    text-align:center;
+}
+.bold{
+    font-size: bold;
+    font-weight: bolder;
+  }
+  .white{
+  color:white;
+  }
+  .button{
+    background-color:rgb(226, 166, 14);
+    padding:10px;
+    border-radius:5px;
+    margin-right: 8px;
+  }
+  .button:hover{
+    background-color:rgb(177, 134, 26);
+  }
+  .buttonfalse{
+    background-color: crimson;
+    padding:10px;
+    border-radius: 5px;
+    margin-right: 8px;
+  }
+  .buttonfalse:hover{
+    background-color:darkorchid;
+  }

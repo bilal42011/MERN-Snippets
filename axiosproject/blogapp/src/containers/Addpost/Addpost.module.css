@@ -1,0 +1,35 @@
+.addpost{
+width:80%;
+box-shadow: 9px 10px 5px -3px rgba(0,0,0,0.3);
+-webkit-box-shadow: 9px 10px 5px -3px rgba(0,0,0,0.3);
+-moz-box-shadow: 9px 10px 5px -3px rgba(0,0,0,0.3);
+border:1px solid lightgray;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:auto;
+background-color: #f2f2f2;
+}
+.addpost a{
+    padding:7px;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    cursor:pointer;
+    margin-top: 10px;
+}
+.addpost input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input:focus{
+      background-color: cadetblue;
+      color:white;
+      font-weight: bold;
+  }
+  

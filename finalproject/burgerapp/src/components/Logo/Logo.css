@@ -1,0 +1,42 @@
+
+.wrapperdiv{
+    box-sizing: border-box;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.log{
+    box-sizing: border-box;
+}
+.logo  img{
+    width:100px;
+    height:100px;
+}
+.wrapperdiv p{
+    display:inline-block;
+    margin-left:4px;
+    font-weight: bolder;
+    font-size:large;
+    border-radius:15px;
+    color:white;
+    border:3px solid white;
+    padding:5px;
+    padding-left:15px;
+    padding-right: 15px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:552px){
+
+    .wrapperdiv{
+        box-sizing: border-box;
+        height:auto;
+    }
+}
+
+@media screen and (max-width:259px) {
+    .wrapperdiv p{
+        display: none;
+    }
+}

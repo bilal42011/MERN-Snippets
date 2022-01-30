@@ -1,0 +1,36 @@
+.sidedrawer{
+position:absolute;
+width:400px;
+height:100%;
+z-index:200;
+background-color: crimson;
+top:0;
+left: 0;
+transition: all 0.3s ease-in;
+}
+.close{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    top:2px;
+    right:15px;
+    cursor: pointer;
+    transform:rotateX(0deg);
+    transition:all ease-out 0.3s;
+}
+.close:hover{
+    color:yellow;
+    transform:rotateX(30deg);
+}
+.sidedrawer hr{
+    height:0px;
+    border: crimson;
+}
+@media screen and (max-width:440px) {
+    .sidedrawer{
+        width: 200px;
+    }
+    .sidedrawer hr{
+        height:30px;
+    }
+}

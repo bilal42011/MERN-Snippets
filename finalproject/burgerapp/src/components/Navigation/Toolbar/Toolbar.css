@@ -1,0 +1,38 @@
+.toolbar{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:crimson ;
+    box-sizing: border-box;
+    height:80px;
+    align-items: center;
+}
+.shownavbar{
+    height:100%;
+}
+.menu{
+    cursor:pointer;
+    font-family: 'Staatliches', cursive;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    transform:translateX(0px);
+    transition:all ease-out 0.3s;
+}
+.menu:hover{
+    color:yellow;
+    transform:rotateX(30deg);
+}
+.fas{
+    color:yellow;
+}
+@media screen and (max-width:552px) {
+    .shownavbar{
+        display:none;
+    }
+    .toolbar{
+        justify-content: space-between;
+        padding:0px 5%;
+    }
+}

@@ -1,0 +1,21 @@
+.fullpost{
+    width:75%;
+    box-shadow: 9px 10px 5px -3px rgba(0,0,0,0.3);
+-webkit-box-shadow: 9px 10px 5px -3px rgba(0,0,0,0.3);
+-moz-box-shadow: 9px 10px 5px -3px rgba(0,0,0,0.3);
+border:1px solid lightgray;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:30px auto;
+background-color: crimson;
+color:white;
+font-family: 'Oswald', sans-serif;
+}
+.fullpost button{
+    padding:7px;
+    background-color:slateblue;
+    font-weight: bolder;
+    cursor:pointer;    
+}

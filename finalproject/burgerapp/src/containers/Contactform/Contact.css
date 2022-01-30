@@ -1,0 +1,53 @@
+.ordersbutton{
+    padding:8px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    margin: 0 5px;
+    font-size: medium;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    margin-top:10px;
+    }
+    .ordersbutton:hover{
+        background-color: yellowgreen;
+    }
+    .contactform{
+        margin:auto;
+        margin-top: 20px;
+        width:80%;
+        background: rgb(221,255,60);
+background: linear-gradient(51deg, rgba(221,255,60,1) 15%, rgba(220,20,60,1) 16%);
+        text-align: center;
+        -webkit-box-shadow: 5px 5px 9px 1px rgba(30,30,30,0.61); 
+box-shadow: 5px 5px 9px 1px rgba(30,30,30,0.61);
+    }
+ .contactform input{
+    display: block;
+    width:80%;
+    border-radius: 5px;
+    margin:5px auto;
+    height:30px;
+    border:3px solid white;
+}
+.contactform input:focus{
+    background-color:yellow;
+    outline: none;
+}
+ h1,h2{
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+    font-size: 33px;
+ }
+ .contactform button{
+     display: block;
+     margin:auto;
+     margin-top: 20px;
+ }
+ /* .contactform label{
+     display: block;
+     color: white;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: larger;
+ } */

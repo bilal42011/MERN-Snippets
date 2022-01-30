@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.navitem{
+    list-style: none;
+    box-sizing: border-box;  
+    margin-left: 4px;
+    height:50%;
+    margin-top:20px;
+}
+.navitem a{
+    text-decoration: none;
+    border:none;
+    border-bottom: 3px solid rgba(255, 0, 0, 0);
+    color:white;
+    font-weight: bolder;
+    transition: all 0.3s ease-in; 
+    background-color:crimson;
+    box-sizing: border-box;
+    cursor:pointer;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    height:100%;
+    margin-left: 8px;
+    padding:8px;
+}
+.navitem a:hover{
+
+    border-bottom: 3px solid rgb(255, 255, 255,1);
+}
+.navitem a:active{
+color:crimson;
+}
+@media screen and (max-width:552px) {
+    .navitem{
+        list-style: none;
+        box-sizing: border-box;  
+        height:auto;
+        margin-left:0px;
+    }
+    .navitem a{
+        display:block;
+        border:none;
+        border-bottom: 3px solid yellow ;
+        color:white;
+        font-weight: bolder;
+        transition: all 0.3s ease-in; 
+        background-color:crimson;
+        box-sizing: border-box;
+        cursor:pointer;
+        padding-bottom: 5px;
+        font-size: larger;
+        font-family: 'Staatliches', cursive;
+        letter-spacing: 2px;
+        height:100%;
+    }
+    .navitem a:hover{
+        border-bottom: 3px solid rgb(255, 255, 255,1);
+    }
+   }

@@ -1,0 +1,1 @@
+console.log("New fs file created through the fs module");var x=10;console.log(x)
